@@ -25,8 +25,8 @@
 
   if (!_cp_js_included) {
   var _cp_js_included = 1;
-  var _cp_instances = [], 
-    _cp_instance_idx = 0,
+  var _cp_instances = (typeof window._cp_instances == 'undefined') ? [] : window._cp_instances;
+  var _cp_instance_idx = 0,
     _cp_pl = ['FLAT', 'SHOP', 'UNIT', 'BLOCK', 'STALL', 'SUITE', 'APARTMENT', 'MAISONETTE', 'HOUSE NUMBER'];
   function CraftyPostcodeCreate() {
     _cp_instance_idx++;
