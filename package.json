@@ -1,0 +1,19 @@
+{
+  "name": "postcode-lookup-js",
+  "version": "4.9.2",
+  "description": "This is a collection of JavaScript code to allow easy integration of postcode / address finder functionality into any website",
+  "main": "crafty_clicks.class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lone-star/postcode-lookup-js.git"
+  },
+  "author": "Benjamin Michel <benjamin.michel.cn@gmail.com> (https://github.com/lone-star)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lone-star/postcode-lookup-js/issues"
+  },
+  "homepage": "https://github.com/lone-star/postcode-lookup-js"
+}
